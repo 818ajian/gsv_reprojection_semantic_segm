@@ -1,0 +1,10 @@
+addpath('CoordsTransfrom');
+addpath('icosahedron2sphere');
+addpath('Projection');
+addpath(genpath('BasicProcessing'));
+addpath('visualization');
+addpath('definitiva_ajustado');
+addpath('imagenesGT');
+addpath('ImagenesResultadosDef');
+addpath('workspace');
+addpath('imgs');
