@@ -14,12 +14,11 @@ When everything is downloaded and in the right place, you just need to run main.
 # Results
 The code returns the scoremap and labemap of the 3 aggregations.
 It also returns the semantic masks as follows:
+- Maximum point average agregation
 ![alt text](https://github.com/pcarballeira/gsv_reprojection_semantic_segm/blob/master/imgs/Location/tests/maximum_point_average_agregation.png)
-
-![Data](gsv_reprojection_semantic_segm/imgs/Location/tests/maximum_point_average_agregation.png)
-
-![Data](gsv_reprojection_semantic_segm/imgs/Location/tests/weighted_maximum_point_average_agregation.png)
-
-![Data] (gsv_reprojection_semantic_segm/imgs/Location/tests/weighted_maximum_local_average_agregation.png)
+- Weighted maximum point average agregation
+![alt text](https://github.com/pcarballeira/gsv_reprojection_semantic_segm/blob/master/imgs/Location/tests/weighted_maximum_point_average_agregation.png)
+- Weighted maximum local average agregation
+![alt text](https://github.com/pcarballeira/gsv_reprojection_semantic_segm/blob/master/imgs/Location/tests/weighted_maximum_local_average_agregation.png)
 
 Finally, it shows the metrics of each aggregation and direct segmentation against the ground truth.
