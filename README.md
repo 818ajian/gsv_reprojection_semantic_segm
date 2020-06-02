@@ -12,7 +12,13 @@ Semantic segmentation masks extracted via https://github.com/pcarballeira/gsv_se
 Download PanoBasic from https://github.com/yindaz/PanoBasic and copy everything inside this folder.
 
 The code consists of a main script and functions that make the different phases of the process.
-
+- cleanup_database: Removes images from the database that are not useful for reprojection.
+- coordinates: Obtain the coordinates by class of the images.
+- reprojection: Project the above coordinates in the position indicated according to the heading and pitch.
+- agregation: Integration of the reprojected coordinates on each pixel.  Three types of simple aggregations are implemented.
+- matrix2print: Preparation to be able to paint the semantic masks.
+- print_mask: Paint the semantic masks over the target image.
+- metrics: Returns different measures of each aggregation and direct segmentation against the ground truth.
 When everything is downloaded and in the right place, you just need to run main.m
 # Results
 The code returns the scoremap and labemap of the 3 aggregations.
