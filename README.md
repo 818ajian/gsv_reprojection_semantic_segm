@@ -19,7 +19,8 @@ The code consists of a main script and functions that make the different phases 
 - matrix2print: Preparation to be able to paint the semantic masks.
 - print_mask: Paint the semantic masks over the target image.
 - metrics: Returns different measures of each aggregation and direct segmentation against the ground truth.
-When everything is downloaded and in the right place, you just need to run main.m
+
+When everything is downloaded and in the right place, you just need to run main.m. You can choose the target heading and pitch.
 # Results
 The code returns the scoremap and labemap of the 3 aggregations.
 It also returns the semantic masks as follows:
