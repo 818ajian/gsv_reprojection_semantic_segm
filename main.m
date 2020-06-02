@@ -6,6 +6,7 @@ dir_ima_pre = ('./imgs/Location/pre/51.5008535,-0.122286/M=DRIVING_S=600x300-jpe
 dir_ima_post = ('./imgs/Location/post/M=DRIVING_S=600x300-jpegs');
 dir_semantic_mask = ('./imgs/Location/res');
 dirGT_location = ('./imgs/Location/GT/PixelLabelData_1/Label_3.png');
+dir_target_ima = ('./imgs/Location/post/M=DRIVING_S=600x300-jpegs/labelmaps/00005.csv');
 dir_deeplab = ('./imgs/Location/deeplab');
 imagestructure = jsondecode(fileread(jsonpath));
 nlabels = 182;
