@@ -7,9 +7,12 @@ Semantic segmentation masks extracted via https://github.com/pcarballeira/gsv_se
 
 # Requirements
 - Matlab
+- Computer vision toolbox
 # Set up
 Download PanoBasic from https://github.com/yindaz/PanoBasic and copy everything inside this folder.
+
 The code consists of a main script and functions that make the different phases of the process.
+
 When everything is downloaded and in the right place, you just need to run main.m
 # Results
 The code returns the scoremap and labemap of the 3 aggregations.
